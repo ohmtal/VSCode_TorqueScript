@@ -29,13 +29,16 @@
                 "aliases": [
                     "Torquescript",
                     "torquescript",
-                    "TorqueScript"
+                    "TorqueScript",
+                    "ElfScript"
+
                 ],
                 "extensions": [
                     ".cs",
                     ".gui",
                     ".mis",
-                    ".tscript"
+                    ".tscript",
+                    ".elf"
                 ],
                 "configuration": "./language-configuration.json"
             }
