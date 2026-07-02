@@ -33,3 +33,19 @@ Fixed spacing on `or` logical operator
 ### 1.0.3
 
 Add Block comments - BloodKnight
+
+
+---
+
+## Notes to crate a vsix used by VSCodium (XXTH)
+
+- go to folder you fetched this repo then: 
+
+```
+npm i
+npm i -g vsce
+vsce package
+```
+
+- in vscodium select extensions on the left side and choose (top left hamburger menu):
+    - Install from VSIX 
