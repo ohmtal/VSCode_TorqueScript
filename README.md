@@ -6,10 +6,25 @@ Originally [converted](http://atom.io/docs/latest-converting-a-text-mate-bundle)
 
 ## Features
 
-* Adds syntax highlighting for .cs and .tscript files (TorqueScript)
+* Adds syntax highlighting for .cs,.tscript and .elf files (TorqueScript/ElfScript)
 * Adds syntax highlighting for .gui files (Torque3D UI)
 * Adds syntax highlighting for Torque's .mis files (Torque3D Mission)
 * Adds common snippets for creating functions, if, while, for, switch, case statements and objects
+
+
+## Howto create a vsix used by VSCodium 
+
+- go to folder you fetched this repo then: 
+
+```
+npm i
+npm i -g vsce
+vsce package
+```
+
+- in vscodium select extensions on the left side and choose (top left hamburger menu):
+    - Install from VSIX 
+
 
 ## Extension Settings
 
@@ -34,18 +49,6 @@ Fixed spacing on `or` logical operator
 
 Add Block comments - BloodKnight
 
+### 1.0.4
 
----
-
-## Notes to crate a vsix used by VSCodium (XXTH)
-
-- go to folder you fetched this repo then: 
-
-```
-npm i
-npm i -g vsce
-vsce package
-```
-
-- in vscodium select extensions on the left side and choose (top left hamburger menu):
-    - Install from VSIX 
+Added .elf - XXTH

@@ -1,8 +1,8 @@
 {
     "name": "torquescript",
     "displayName": "TorqueScript",
-    "description": "Syntax highlighting for Torque3D's TorqueScript",
-    "version": "1.0.3",
+    "description": "Syntax highlighting for Torque3D's TorqueScript and ElfScript",
+    "version": "1.0.4",
     "engines": {
         "vscode": "^0.10.5"
     },
